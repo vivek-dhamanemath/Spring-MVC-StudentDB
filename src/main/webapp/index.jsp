@@ -13,7 +13,7 @@
 		<a href="AddStudent.jsp">ADD NEW STUDENT</a>
 	</h2>
 	<h2>
-		<a href="display-all-studnet">DISPLAY ALL STUDNETS</a>
+		<a href="display-all-students">DISPLAY ALL STUDNETS</a>
 	</h2>
 </body>
 </html>

@@ -1,4 +1,4 @@
-package com.jsp.springmvc.studentdb.controler;
+package com.jsp.springmvc.studentdb.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,6 +18,12 @@ public class StudentControler {
 	@RequestMapping(value = "/add-student" , method = RequestMethod.POST)
 	public ModelAndView addStudent(Student student) {
 		return studentService.addStudent(student);
+	}
+	
+	@RequestMapping(value = "/display-all-students", method = RequestMethod.GET)
+	public ModelAndView displayAllStudents() {
+		return studentService.displayAllStudents();
+		
 	}
 	
 	
